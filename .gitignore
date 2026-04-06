@@ -1,0 +1,27 @@
+# Credentials — never commit these
+.env
+config.env
+etsy_token.json
+users.json
+.jwt_secret
+
+# Data files — contain real listing/inventory data
+rug_inventory.csv
+imported_rugs.json
+
+# Reports
+reports/
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
